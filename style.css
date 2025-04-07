@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/*
+#010510
+#66C4D9
+#DFE3D5
+#AE361B
+#C56C2A
+*/
+
+* {
+    margin: 0px;
+}
+
+
+
+:root {
+    --preto: #010510;
+    --azul: #66C4D9;
+    --branco: #DFE3D5;
+    --vermelho: #AE361B;
+    --laranja: #C56C2A;
+}
+
+
+
+body {
+    background-color: var(--branco);
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: justify;
+}
+
+strong {
+    font-size: 1.2em;
+}
+
+
+body a {
+    color: var(--azul);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--azul);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--azul), rgb(135, 135, 224) );
+    padding: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
+}
+
+
+header > h1 {
+    text-align: center;
+    color: var(--vermelho);
+    font-weight: bold;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
+    
+}
+
+
+header > p {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.432);
+}
+
+
+nav > a {
+    color: var(--vermelho);
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+nav > a:hover {
+    background-color: #66C4D9;
+    font-weight: 900;
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
+
+main {
+    text-indent: 20px;
+    background-color: var(--laranja);
+    padding: 10px 10px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.397);
+}
+
+
+main h1 {
+    padding: 10px;
+}
+
+
+main h2 {
+    background-image: linear-gradient(to right, var(--vermelho), var(--laranja));
+    padding:5px 0px;
+    margin: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+main img {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+
+
+aside {
+    background-color: var(--vermelho);
+    margin: 20px 0px;
+    border-radius: 10px 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
+}
+
+
+aside > ul {
+    columns: 2;
+    margin: 10px 0px;
+    list-style-position: inside;
+}
+
+
+aside > ul {
+    list-style-type: '\1F5F9\00a0\00a0';
+
+}
+
+
+h3 {
+    background-color: var(--vermelho);
+}
+
+
+.bug {
+    max-width: 40% !important;
+    margin: auto;
+    display: block;
+}
+
+
+footer {
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 0px;
+    text-align: center;
+    max-width: 1020px;
+    margin: auto;
+}
